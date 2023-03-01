@@ -16,11 +16,16 @@ namespace MyBD_prj
         public aboutForm()
         {
             InitializeComponent();
+
+            versionLabel.Text = "Версия: " + Application.ProductVersion;
+            copyrightsLabel.Text = Application.CompanyName;
+            
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -41,6 +46,17 @@ namespace MyBD_prj
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_DoubleClick(object sender, EventArgs e)
+        {
+            EasterEggOne psh = new EasterEggOne();
+            psh.ShowDialog();
         }
     }
 }

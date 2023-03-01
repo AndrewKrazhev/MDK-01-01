@@ -28,40 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.DBPathBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.NameBox = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button3
+            // btnSave
             // 
-            this.button3.Location = new System.Drawing.Point(557, 14);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Reset to defaults";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(505, 218);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Save";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnSave.Location = new System.Drawing.Point(505, 218);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 8;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.button2_Click);
             // 
             // DBPathBox
             // 
             this.DBPathBox.Location = new System.Drawing.Point(144, 17);
             this.DBPathBox.Name = "DBPathBox";
-            this.DBPathBox.Size = new System.Drawing.Size(312, 20);
+            this.DBPathBox.Size = new System.Drawing.Size(370, 20);
             this.DBPathBox.TabIndex = 7;
             // 
             // label1
@@ -98,8 +88,21 @@
             // 
             this.NameBox.Location = new System.Drawing.Point(144, 43);
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(312, 20);
+            this.NameBox.Size = new System.Drawing.Size(370, 20);
             this.NameBox.TabIndex = 12;
+            // 
+            // button3
+            // 
+            this.button3.Image = global::MyBD_prj.Properties.Resources.power_reset_1847;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button3.Location = new System.Drawing.Point(545, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(59, 71);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Reset to defaults";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Settings
             // 
@@ -111,12 +114,13 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.DBPathBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Settings";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Settings";
             this.Load += new System.EventHandler(this.Settings_Load);
             this.ResumeLayout(false);
@@ -127,7 +131,7 @@
         #endregion
 
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.TextBox DBPathBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;

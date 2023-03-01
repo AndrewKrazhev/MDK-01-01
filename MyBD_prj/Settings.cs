@@ -20,6 +20,7 @@ namespace MyBD_prj
         private void button2_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.PathDB = DBPathBox.Text;
+            Properties.Settings.Default.Name = NameBox.Text;
             Properties.Settings.Default.Save();
             this.Close();
         }
@@ -38,8 +39,7 @@ namespace MyBD_prj
 
         private void Settings_Load(object sender, EventArgs e)
         {
-            string _bdPath = Properties.Settings.Default.PathDB;
-            DBPathBox.Text = _bdPath;
+            DBPathBox.Text = Properties.Settings.Default.PathDB;
             NameBox.Text = Properties.Settings.Default.Name;
         }
 

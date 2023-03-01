@@ -70,11 +70,23 @@
     <Compile Include="aboutForm.Designer.cs">
       <DependentUpon>aboutForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EasterEggOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasterEggOne.Designer.cs">
+      <DependentUpon>EasterEggOne.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputForm.Designer.cs">
+      <DependentUpon>InputForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="aboutForm.resx">
       <DependentUpon>aboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasterEggOne.resx">
+      <DependentUpon>EasterEggOne.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -139,6 +154,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cave_man_emoticon_emoji_sticker_inventor_icon_123518.ico" />
+    <None Include="Resources\8_122645.png" />
+    <None Include="Resources\power_reset_1847.png" />
+    <None Include="Resources\2023-02-28_10-14-50.png" />
+    <None Include="Resources\2023-02-28_09-03-17.png" />
+    <None Include="Resources\2023-02-28_08-01-52.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
