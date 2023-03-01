@@ -83,9 +83,59 @@ namespace MyBD_prj.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2023_02_28_08_01_52 {
+            get {
+                object obj = ResourceManager.GetObject("2023-02-28_08-01-52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_02_28_09_03_17 {
+            get {
+                object obj = ResourceManager.GetObject("2023-02-28_09-03-17", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_02_28_10_14_50 {
+            get {
+                object obj = ResourceManager.GetObject("2023-02-28_10-14-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_122645 {
+            get {
+                object obj = ResourceManager.GetObject("8_122645", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngimg_com___copyright_PNG2 {
             get {
                 object obj = ResourceManager.GetObject("pngimg.com - copyright_PNG2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap power_reset_1847 {
+            get {
+                object obj = ResourceManager.GetObject("power_reset_1847", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
